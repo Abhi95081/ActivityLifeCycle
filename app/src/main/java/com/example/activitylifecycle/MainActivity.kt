@@ -21,9 +21,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ActivityLifeCycleTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
-                }
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding -> }
             }
         }
     }
